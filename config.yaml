@@ -1,0 +1,11 @@
+baseURL: http://hugofy.github.io/blog
+languageCode: en-us
+title: Hugofy Blog
+
+module:
+  imports:
+  - path: github.com/hugofy/hugofy-modules
+    mounts:
+    - source: layouts
+      target: layouts
+  
